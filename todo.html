@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <header class="header">
+        <h1>To-Do list</h1>
+        <form class="form header-form">
+            <input type="text" class="form-input" name="search" placeholder="search here" >
+        </form>
+
+    </header>
+
+    <div>
+
+        <ul class="ul" >
+            <li class="li">
+                <span>First to-do</span>
+                <i class="far fa-trash-alt delete"></i>
+               
+            </li>
+        
+            <li class="li">
+                <span>Second to-do</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        
+            <li class="li">
+                <span>Third to-do</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+    </div>
+
+   <form class="form footer-form" >
+       <label> add new todo </label><br>
+       
+       <input type="text" class="form-input " name="add" > <br>
+       <!-- <textarea name="description" class="form-textarea" cols="30" rows="10"></textarea> <br>
+       <input type="submit"> -->
+       
+   </form>
+    <script src="todo.js"></script>
+</body>
+</html>
